@@ -14,9 +14,8 @@ Installation
 Usage
 -----
     var winston = require('winston');
+    // exposes `winston.transports.Couchbase`
     var winstonCb = require('winston-couchbase');
-    winston.add(winstonCb, options);
-    // or
     winston.add(winston.transports.Couchbase, options);
 
 Options
