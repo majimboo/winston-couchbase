@@ -1,6 +1,6 @@
 {
   "name": "winston-couchbase",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Couchbase transport for winston.",
   "main": "./lib/winston-couchbase.js",
   "scripts": {

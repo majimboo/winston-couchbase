@@ -1,4 +1,4 @@
-winston-couchbase [![Build Status](https://travis-ci.org/majimboo/winston-couchbase.svg?branch=master)](https://travis-ci.org/majimboo/winston-couchbase)
+winston-couchbase
 =================
 
 [![NPM](https://nodei.co/npm/winston-couchbase.png?downloads=true)](https://nodei.co/npm/winston-couchbase/)
