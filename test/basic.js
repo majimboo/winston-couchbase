@@ -3,13 +3,9 @@
 
 var should = require('chai').should();
 var winston = require('winston');
-var couchbase = require('couchbase');
 
 // will expose winston.transports.Couchbase
 require('../');
-
-// setup connection
-var client = new couchbase.Connection({});
 
 describe('#winston-couchbase', function() {
   it('can add the transport', function(done) {
