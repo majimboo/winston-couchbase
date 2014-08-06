@@ -1,0 +1,25 @@
+{
+  "name": "winston-couchbase",
+  "version": "0.0.1",
+  "description": "A Couchbase transport for winston.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/majimboo/winston-couchbase"
+  },
+  "keywords": [
+    "couchbase",
+    "winston",
+    "logging",
+    "transport"
+  ],
+  "author": "Majid Arif Siddiqui <me@majidarif.com> (http://blog.majidarif.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/majimboo/winston-couchbase/issues"
+  },
+  "homepage": "https://github.com/majimboo/winston-couchbase"
+}
