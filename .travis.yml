@@ -8,3 +8,4 @@ before_install:
   - sudo wget http://packages.couchbase.com/releases/2.0.0/couchbase-server-enterprise_x86_64_2.0.0.deb
   - sudo dpkg -i couchbase-server-enterprise_x86_64_2.0.0.deb
   - sudo service couchbase-server start
+  - npm rebuild
