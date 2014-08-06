@@ -5,11 +5,6 @@ node_js:
   - "0.10"
 
 before_install:
-  - sudo rm -rf /etc/apt/sources.list.d/*
-  - wget -O- http://packages.couchbase.com/ubuntu/couchbase.key | sudo apt-key add -
-  - echo deb http://packages.couchbase.com/snapshot/ubuntu oneiric oneiric/main | sudo tee /etc/apt/sources.list.d/couchbase.list
-  - sudo apt-get update
-  - sudo apt-cache search libcouchbase
-
-install:
-  - sudo apt-get -y install libcouchbase-dev libcouchbase2-core libcouchbase2-libevent
+  - sudo wget http://packages.couchbase.com/releases/2.0.0/couchbase-server-enterprise_x86_64_2.0.0.deb
+  - sudo dpkg -i couchbase-server-enterprise_x86_64_2.0.0.deb
+  - sudo service couchbase-server start
