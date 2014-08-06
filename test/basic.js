@@ -3,9 +3,8 @@
 
 var should = require('chai').should();
 var winston = require('winston');
-
 // will expose winston.transports.Couchbase
-require('../');
+var winstonCb = require('../');
 
 describe('#winston-couchbase', function() {
   it('can add the transport', function(done) {
