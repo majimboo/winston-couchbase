@@ -21,9 +21,9 @@ Usage
 Options
 -------
 
-- __level__: level of the message this transport should log. *(default: info)*
-- __bucket__: bucket where to store logs. *(default: default)*
-- __prefix__: prefix of your keys. *(default: wl)*
-- __host__: address of the couchbase server. *(default: 127.0.0.1:8091)*
+- level *(default: info)*: level of the message this transport should log.
+- bucket *(default: default)*: bucket where to store logs.
+- prefix *(default: wl)*: prefix of your keys.
+- host *(default: 127.0.0.1:8091)*: address of the couchbase server.
 
 [0]: https://github.com/flatiron/winston
